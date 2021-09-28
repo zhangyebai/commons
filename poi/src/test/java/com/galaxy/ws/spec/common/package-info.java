@@ -1,0 +1,1 @@
+package com.galaxy.ws.spec.common;
