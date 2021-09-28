@@ -32,9 +32,12 @@ out/
 ### VS Code ###
 .vscode/
 
+*/target
+
 ### logs
 logs
 .DS_store
 
 /target
 *.xlsx
+*.class
