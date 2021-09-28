@@ -1,4 +1,4 @@
-package com.galaxy.ws.spec.common.jpa;
+package com.any.common.jpa;
 
 import com.any.common.jpa.JpaUtil;
 import com.any.common.jpa.domain.JpaOrder;

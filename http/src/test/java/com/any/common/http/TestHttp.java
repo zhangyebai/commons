@@ -1,4 +1,4 @@
-package com.galaxy.ws.spec.common.http;
+package com.any.common.http;
 
 import org.junit.jupiter.api.Test;
 
@@ -15,8 +15,6 @@ class TestHttp {
         System.out.println(new String(bs, StandardCharsets.UTF_8));
         final Map<String, String> cookies = new HashMap<>();
         cookies.put("Y-Auth-Token", "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJtZXJjaGFudElkIjoiMTI1MDIyNzQ4Njk4NzI2NDAwIiwiY3JlYXRlVGltZSI6IjE2MjU3OTk4NTEyMTgiLCJ0eXBlIjowLCJleHAiOjE2MjYwNTkwNTEsInVzZXJJZCI6IjI0MGVjZGFhLWE2MWEtNGRmNi1iMTRjLTY1MGFiZDBhYTlmOCIsImNoYW5uZWxDb2RlIjo2fQ.ddjmjxYY04qwPzvvn2YEejpMEXBNtpDhMu6DD478DGA");
-        final byte[] ws = HttpClient.easyGet("https://case-test.wusong.com/api/lj/cs/system/settings/litigation/find", null, null, cookies);
-        System.out.println(new String(ws, StandardCharsets.UTF_8));
         */
 //        final Future<HttpResponse> future = HttpClient.getAsync("https://www.baidu.com");
 //        final HttpResponse result = future.get();
